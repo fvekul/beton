@@ -7,3 +7,5 @@ First start the server by running ``python beton_server.py``, which initiates a 
 
 This last line returns a json response ``{"scheur": True/False, "success"=True/False}``,
 the "success" key denotes whether the image was succesfully classified, the "scheur" key denotes whether a tear in the concrete was detected.
+
+Alternatively, run the ``sendImage.py`` script to classify an image.
