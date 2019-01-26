@@ -6,7 +6,7 @@ import tensorflow as tf
 import flask
 import io
 
-# initialize our Flask application and the Keras model
+# initialize our Flask application
 app = flask.Flask(__name__)
 
 def load_model():
