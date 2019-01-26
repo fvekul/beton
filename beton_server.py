@@ -8,10 +8,6 @@ import io
 
 # initialize our Flask application and the Keras model
 app = flask.Flask(__name__)
-# global graph,model
-# graph = tf.get_default_graph()
-# model = None
-
 
 def load_model():
     # load the pre-trained Keras model
